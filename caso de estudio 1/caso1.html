@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Producción</title>
+</head>
+<body>
+
+    <h2>Control de Producción Semanal</h2>
+
+    <table border="1">
+
+        <tr>
+            <td>Dimensión</td>
+            <td>
+                <select id="id-select-ejemplo">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <button id="id-btn-cargar-ejemplo">
+                    Cargar Producción
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button id="id-btn-presentar-ejemplo">
+                    Presentar
+                </button>
+            </td>
+
+            <td>
+                <textarea
+                    id="id-listado-ejemplo"
+                    rows="20"
+                    cols="60"
+                    readonly></textarea>
+            </td>
+        </tr>
+
+    </table>
+
+    <script src="wz.js"></script>
+
+</body>
+</html>
